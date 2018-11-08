@@ -8,8 +8,8 @@
 
 .content-left {
     width: 34%;
-    /* This height is a placeholder. You will need to make some adjustments to get this container to look like the design. */
-    height: 100px;
+    float: left;/* This height is a placeholder. You will need to make some adjustments to get this container to look like the design. */
+    height: 430px;
     background: #565555;
 }
 
@@ -18,8 +18,8 @@
 
 .content-mid {
     width: 66%;
-    /* This height is a placeholder. You will need to make some adjustments to get this container to look like the design. */
-    height: 100px;
+    float: right;/* This height is a placeholder. You will need to make some adjustments to get this container to look like the design. */
+    height: 430px;
     background: #B0B0B0;
 }
 
@@ -27,6 +27,8 @@
 
 .footer {
     width: 100%;
+    position: absolute;
+    bottom: 0;
     height: 100px;
     background: #3A3A3A;
 }
